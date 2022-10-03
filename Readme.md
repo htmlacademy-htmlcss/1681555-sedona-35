@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Саид Урусханов](https://up.htmlacademy.ru/htmlcss/35/user/1681555).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Дроганов](https://htmlacademy.ru/profile/dmdragon).
 
 ---
 
