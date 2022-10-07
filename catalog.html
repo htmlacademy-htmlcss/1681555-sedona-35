@@ -53,6 +53,7 @@
             Каталог
         </h1>
         <section class="catalog-filter">
+          <div class="catalog-filter-main">
             <h2 class="visually-hidden">Выбор критерий отеля</h2>
             <p class="catalog-filter-description">
                 Гостиницы Седоны
@@ -64,7 +65,7 @@
                     </a>
                 </li>
                 <li class="breadcrumbs-items">
-                    <a class="breadcrumbs-link" href="index.html">
+                    <a class="breadcrumbs-link">
                          Гостиницы
                     </a>
                 </li>
@@ -129,8 +130,12 @@
                 <button class="button" type="submit">Применить</button>
                 <button class="button" type="submit">Сбросить</button>
                 </ul>
-
-            <p class="catalog-control-discription">Найдено гостиниц: 38</p>
+           </div>
+           <div class="catalog-inference">
+            <p class="catalog-control-discription">Найдено гостиниц:</p>
+            <span class="result">
+              38
+            </span>
             <select class="select-catalog-control" aria-label="Сортировка">
                 <option value=" cheap">
                     Сначала дешёвые
@@ -153,7 +158,8 @@
                     </a>
                 </li>
             </ul>
-
+          </div>
+          <div class="card-inference">
             <ul class="catalog-card-list">
                 <li class="catalog-card-item">
                     <a class="catalog-card-link" href="">
@@ -204,14 +210,14 @@
                     <a class="button button-detail" href="#">
                         подробнее
                     </a>
-                    <button class="button button-favorite">В избранное</button>
+                    <button class="button button-favorite" type="submit">В избранное</button>
                     <!--Тут наверноее какой-то оутпут должен быть-->
                 </li>
             </ul>
-            <a class="button button-more">
-                Загрузить ещё
-            </a>
+            <button class="button button-more" type="submit">Загрузить ещё</button>
+          </div>
 
+          <div class="pagination">
             <ul class="pagination-list">
                 <li class="pagination-item">
                     <a class="pagination-link pagination-current">
@@ -252,6 +258,7 @@
                     4
                 </option>
             </select>
+          </div>
         </section>
 
         <aside class="subscribe">
